@@ -8,87 +8,90 @@
     <table><tr><td id="mingzi" style="color:aqua;font-size:larger;position:absolute;left:47%;top: 20%;"></td></tr></table>
     <button id="btn" onclick="begin()"" style="position:absolute;left:46%;top:49%">开始点名了</button>
     <script>
-        var people=["高天翔","郭晓月","郭利峰","黄梦鑫","王海鑫","席晓奇","赵嘉豪"]
-        var num=parseInt(Math.random()*people.length)
-        var lie=parseInt(Math.random()*people.length)
-        console.log(num,lie)
-        var ming=document.getElementById("mingzi")
-        function a(){
-            if(people[num]=="高天翔" && lie%2==0)
-            {ming.innerHTML="高天翔"}
-            else
-            {
-                if(people[num]=="高天翔")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
-        function b(){
-            if(people[num]=="郭晓月" && lie%2==0)
-            {ming.innerHTML="郭晓月"}
-            else
-            {
-                if(people[num]=="郭晓月")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
-        function c(){
-            if(people[num]=="郭利峰" && lie%2==0)
-            {ming.innerHTML="郭利峰"}
-            else
-            {
-                if(people[num]=="郭利峰")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
-        function d(){
-            if(people[num]=="黄梦鑫" && lie%2==0)
-            {ming.innerHTML="黄梦鑫"}
-            else
-            {
-                if(people[num]=="黄梦鑫")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
-        function e(){
-            if(people[num]=="王海鑫" && lie%2==0)
-            {ming.innerHTML="王海鑫"}
-            else
-            {
-                if(people[num]=="王海鑫")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
-        function f(){
-            if(people[num]=="席晓奇" && lie%2==0)
-            {ming.innerHTML="席晓奇"}
-            else
-            {
-                if(people[num]=="席晓奇")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
-        }
+        // var people=["高天翔","郭晓月","郭利峰","黄梦鑫","王海鑫","席晓奇","赵嘉豪"]
+        // var num=parseInt(Math.random()*people.length)
+        // var lie=parseInt(Math.random()*people.length)
+        // console.log(num,lie)
+        // var ming=document.getElementById("mingzi")
+        // function a(){
+        //     if(people[num]=="高天翔" && lie%2==0)
+        //     {ming.innerHTML="高天翔"}
+        //     else
+        //     {
+        //         if(people[num]=="高天翔")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function b(){
+        //     if(people[num]=="郭晓月" && lie%2==0)
+        //     {ming.innerHTML="郭晓月"}
+        //     else
+        //     {
+        //         if(people[num]=="郭晓月")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function c(){
+        //     if(people[num]=="郭利峰" && lie%2==0)
+        //     {ming.innerHTML="郭利峰"}
+        //     else
+        //     {
+        //         if(people[num]=="郭利峰")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function d(){
+        //     if(people[num]=="黄梦鑫" && lie%2==0)
+        //     {ming.innerHTML="黄梦鑫"}
+        //     else
+        //     {
+        //         if(people[num]=="黄梦鑫")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function e(){
+        //     if(people[num]=="王海鑫" && lie%2==0)
+        //     {ming.innerHTML="王海鑫"}
+        //     else
+        //     {
+        //         if(people[num]=="王海鑫")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function f(){
+        //     if(people[num]=="席晓奇" && lie%2==0)
+        //     {ming.innerHTML="席晓奇"}
+        //     else
+        //     {
+        //         if(people[num]=="席晓奇")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
+        // function begin(){
+        //     if(people[num]=="赵嘉豪" && lie%2==0)
+        //     {ming.innerHTML="赵嘉豪"}
+        //     else
+        //     {
+        //         if(people[num]=="赵嘉豪")
+        //         {ming.innerHTML=people[lie]}
+        //         else
+        //         {ming.innerHTML=people[num]}
+        //     }
+        // }
         function begin(){
-            if(people[num]=="赵嘉豪" && lie%2==0)
-            {ming.innerHTML="赵嘉豪"}
-            else
-            {
-                if(people[num]=="赵嘉豪")
-                {ming.innerHTML=people[lie]}
-                else
-                {ming.innerHTML=people[num]}
-            }
+            alert("真傻，你还真点开了，点开为什么要按那个按钮呢，好傻啊")
         }
     </script>
 </body>
